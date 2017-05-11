@@ -1,0 +1,21 @@
+{
+    "name": "videorecruit/utils",
+    "type": "library",
+    "description": "Utilities for string & array manipulation.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lukas Tomek",
+            "email": "tomeklukas@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "nette/utils": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "VideoRecruit\\Utils\\": "src/"
+        }
+    }
+}
